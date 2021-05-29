@@ -1,0 +1,333 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background:#f8f8f8;
+}
+
+.box{
+	width:20%;
+	display:flex;
+	flex-direction:column;
+	border:1px solid #ceb3b3;
+	margin:30px auto;
+	height:390px;
+	padding:20px;
+	background:white;
+	border-radius:6px;
+}
+
+input{
+	border:1px solid #ceb3b3;
+	width:100%;
+	margin:15px 10px 0px 77p;
+	font-size:15px;
+	padding:9px;
+	border-radius:6px;
+	background:#fafafa;
+}
+
+.details{
+	margin:30px 15px 16px 18px;
+}
+#name{
+	margin-bottom:5px;
+}
+
+h1{
+	text-align:center;
+	font-family: 'Cookie', cursive;
+	font-size:60px;
+	margin:0;
+	font-weight:90;
+}
+
+button{
+	width:90%;
+	margin:4px 17px;
+	background:#8cc6ff;
+	padding:6px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	border-radius:6px;
+	border:1px solid #ceb3b3;
+}
+
+hr{
+	width: 36%;
+    	height:0px;
+    	margin-top: 29px;
+	background:#8e8e8e;
+}
+
+.or{
+	display:flex;
+	flex-direction:row;
+	margin-left: 4px;
+	color:#8e8e8e;
+	font-family:arial;
+}
+
+.fb img{
+	width:6%;
+	cursor:pointer;
+}
+
+.fb{
+	margin-left:65px;
+}
+
+.fb a{
+	text-decoration:none;
+	margin-left:5px;
+	font-weight:bold;
+	font-family:arial;
+	font-size:14px;
+	color:#385185;
+}
+
+#forgot{
+	margin-top:22px;
+	text-align:center;
+	font-size:15px;
+}
+#forgot a{
+	text-decoration:none;
+	font-family: 'Thasadith', sans-serif;
+	color:#385185;
+	font-size:14px;
+}
+
+::placeholder {
+    font-size: 12px;
+	width:90%;
+}
+
+#box2{
+	text-align:center;
+	font-family:arial;
+	padding:23px;
+	width:116%;
+	font-size:15px;
+	margin-left :-20px;
+	margin-top :50px;
+	display:block;
+	flex-direction:row;
+	heigth:200px !important;
+}
+
+#box2 a{
+	text-decoration:none;
+	color:#0095f6;
+}
+
+.footer{
+	display:flex;
+	width:100%;
+	margin-top:45px;
+	margin-left:-120px;
+}
+
+.store{
+	display:flex;
+}
+.store img{
+	cursor:pointer;
+	width:45%;
+	margin-left:8px;
+	margin-top:15px;
+}
+
+.footer a{
+	width:100%;
+	text-decoration:none;
+	padding:10px;
+	font-family:arial;
+	font-size:12px;
+	color:#8e8e8e;
+}
+
+.hash{
+	margin-left:50px;
+}
+
+.newline{
+	display:none;
+}
+
+@media screen and (max-width:1530px)
+{
+	.box{
+		width:25vw;
+	}	
+	#box2{
+		width:25vw;
+	}
+	.fb img{
+		margin-left: 20px;
+	}
+	.footer a {
+		font-size:16px;
+	}
+	.footer{
+		margin-left: -184px;
+	}
+}
+@media screen and (max-width: 1200px)
+{
+	.box{
+		width:30vw;
+	}
+	#box2{
+		width:30vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 1000px)
+{
+	.box{
+		width:44vw;
+	}
+	#box2{
+		width:44vw;
+		font-size:17px;
+	}
+	.fb img {
+		margin-left:26px;
+	}
+	::placeholder{
+		font-size:16px;
+	}
+	.fb a {
+		font-size:17px;
+	}
+	#forgot a {
+		font-size: 17px;
+	}
+	.footer a {
+		font-size:17px;
+	}
+}
+@media screen and (max-width: 850px)
+{
+	.box{
+		width:50vw;
+	}
+	#box2{
+		width:50vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+	.footer a {
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 735px)
+{
+	.box{
+		width:56vw;
+	}
+	#box2{
+		width:56vw;
+	}
+	.fb img {
+		margin-left: 10px;
+	}
+	.footer a {
+		font-size:13px;
+	}
+	.footer{
+		margin-left:-110px;
+	}
+}
+@media screen and (max-width: 650px)
+{
+	::placeholder{
+		font-size:12px;
+	}
+	.footer{
+		margin-left:-30px;
+	}
+	.fb img {
+		margin-left: -17px;
+	}
+	.newline{
+		display:inline-block;
+		margin-top:-2px;
+		margin-bottom: 6px;
+		margin-left:20px;
+	}
+	.nxtline{
+		display:none;
+	}
+	.fb a {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width:545px){
+	.box{
+		width:65vw;
+	}
+	#box2{
+		width:65vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width:465px){
+	.box{
+		width:75vw;
+	}
+	#box2{
+		width:75vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+	.footer{
+		margin-left:-28px;
+	}
+	.newline{
+		margin-left:15px;
+	}
+}
+@media screen and (max-width:400px){
+	.box{
+		width:85vw;
+	}
+	#box2{
+		width:85vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+	.footer{
+		margin-left:-28px;
+	}
+	.newline{
+		margin-left:15px;
+	}
+}
+@media screen and (max-width:355px){
+	.box{
+		width:95vw;
+	}
+	#box2{
+		width:95vw;
+	}
+	.fb img {
+		margin-left: 0px;
+	}
+	.footer{
+		margin-left:-28px;
+	}
+	.newline{
+		margin-left:10px;
+	}
+}
